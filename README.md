@@ -79,5 +79,16 @@ And also click [here](https://developer.twitter.com/en/portal/products).
 | Phone Number    | +2349026915561           |
 | Position        | Backend developer        |
 
+## Developer
+| Key                         | Value                                               | 
+|---------------------------- |-----------------------------------------------------|
+| TWITTER_CONSUMER_KEY        | 4izqekew2WZtRmWX0jaLGJW1Y                           |
+| TWITTER_CONSUMER_SECRET     | 5N4ffz6OTm5dTvcBwf53x5x7yuciO3o3cIaAyQxwiBEweUh6iA  |
+| TWITTER_ACCESS_TOKEN        | 1111350886729699328-NscnBlhoNgfBwJKEh4E5xJaEZxBK0Y  |
+| TWITTER_ACCESS_TOKEN_SECRET | GOZ7qml0PvHTflUal225byLieqrA83qlGOnOQDVJUmyD0       |
+| TWITTER_API_VERSION         | 2                                                   |
+| TWITTER_REDIRECT_URI        | http://127.0.0.1:8000/profile                       |
+| TWITTER_CLIENT_ID           | MHpGelJrV3VYVWplN0llWVZQWTA6MTpjaQ                  |
+| TWITTER_CLIENT_SECRET       |ifXZs0ItK7n6N5c9cKoZANJyW4FIemw6PxxYkSZ-U6ldPPLtD2   |
 
-
+TWITTER_BEARER_TOKEN  :AAAAAAAAAAAAAAAAAAAAAFvJrQEAAAAAgyIKpLvGMwx4i%2Femf3c%2BUHh6kNA%3DvnVhE9DzcxXZ042vSo3WPb4vdetEgK2gcOzMXmvGaMatWp3hAM
