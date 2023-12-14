@@ -28,6 +28,7 @@ class SubscriptionController extends Controller
 
     // This only works when you upgrade twitter account to a paid plan
     //for more info https://www.withblaze.app/blog/understanding-the-recent-changes-to-twitter-api-a-complete-guide
+    // and also https://developer.twitter.com/en/portal/products
         $followResult = $twitterOAuth->post('friendships/create', ['user_id' =>  $userid ]);
         if ($twitterOAuth->getLastHttpCode() == 200) {
             // Send a Direct Message to the user
