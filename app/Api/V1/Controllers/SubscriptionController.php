@@ -25,9 +25,9 @@ class SubscriptionController extends Controller
      // $tweet = $twitterOAuth->delete('tweets/id');
     // $tweet = $twitterOAuth->get('users/me');
    // dd($tweet);
-   
+
     // This only works when you upgrade twitter account to a paid plan
-    //for more info https://developer.twitter.com/en/portal/products
+    //for more info https://www.withblaze.app/blog/understanding-the-recent-changes-to-twitter-api-a-complete-guide
         $followResult = $twitterOAuth->post('friendships/create', ['user_id' =>  $userid ]);
         if ($twitterOAuth->getLastHttpCode() == 200) {
             // Send a Direct Message to the user

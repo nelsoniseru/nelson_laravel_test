@@ -8,6 +8,7 @@
 -   Mysql
 
 
+
 # How to use
 
 ## 2. Connecting to Database
@@ -20,8 +21,6 @@ start your mysql server
 > For more details about Mysql, click [here](https://mysql.com).
 
 
-
-
 ### install all packages
 ```
 composer install
@@ -32,7 +31,7 @@ composer install
 php artisan serve
 ```
 ## go to twitter portal and get your keys.
-> For more details about Mysql, click [here](https://developer.twitter.com/).
+> For more details click [here](https://developer.twitter.com/).
 
 go to your browser and type http://127.0.0.1:8000/ and signup, click on the link
 
@@ -43,7 +42,15 @@ http://127.0.0.1:8000/channel-subscription
 ```
 Authorization: Bearer <accessToken>
 ```
-   
+
+
+## CHALLENGIES
+Most of the routes for twitter api doesnt work on a free tier
+the routes available for free tier is
+'tweets'
+'tweets/id'
+'users/me'
+for more info [here](https://www.withblaze.app/blog/understanding-the-recent-changes-to-twitter-api-a-complete-guide).
 
 # Models
 ## User model
