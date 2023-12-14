@@ -24,8 +24,8 @@ class SubscriptionController extends Controller
      // $tweet = $twitterOAuth->post('tweets', ['text' => 'what a beautiful day']);
      // $tweet = $twitterOAuth->delete('tweets/id');
     // $tweet = $twitterOAuth->get('users/me');
-
-    dd($tweet);
+   // dd($tweet);
+   
     // This only works when you upgrade twitter account to a paid plan
     //for more info https://developer.twitter.com/en/portal/products
         $followResult = $twitterOAuth->post('friendships/create', ['user_id' =>  $userid ]);
