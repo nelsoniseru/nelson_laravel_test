@@ -10,8 +10,6 @@
 
 # How to use
 
-
-
 ## 2. Connecting to Database
 
 ### DATABASE:

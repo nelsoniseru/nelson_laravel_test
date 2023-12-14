@@ -25,11 +25,6 @@ class LoginController extends Controller
            $this->saveUserToDatabase($twitterUser);
 
              $user = User::where('twitter_id', $twitterUser->id)->first();
-
-             $userData = [
-                'email' => $user->name,
-                'password'=>   $user->password
-            ];
             
              //save the user id in session
              session()->put(['app_id' =>$user['twitter_id']]);
