@@ -29,7 +29,7 @@ class LoginController extends Controller
              //save the user id in session
              session()->put(['app_id' =>$user['twitter_id']]);
              
-
+          dd($twitterUser);
          
          return response()->json([
             'user'=>$twitterUser,

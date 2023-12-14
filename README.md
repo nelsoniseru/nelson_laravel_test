@@ -49,7 +49,8 @@ Most of the routes for twitter api doesnt work on a free tier
 the routes available for free tier is
 'tweets',
 'tweets/id',
-'users/me',
+'users/me'
+That is more reason i used socialite to get user credentials
 For more info [here](https://www.withblaze.app/blog/understanding-the-recent-changes-to-twitter-api-a-complete-guide).
 
 And also [here](https://developer.twitter.com/en/portal/products).
