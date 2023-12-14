@@ -36,7 +36,7 @@ class SubscriptionController extends Controller
                     'type' => 'message_create',
                     'message_create' => [
                         'target' => [
-                            'recipient_id' => '1111350886729699328', 
+                            'recipient_id' =>  $userid, 
                         ],
                         'message_data' => [
                             'text' => 'Thanks for following!.',
@@ -51,7 +51,7 @@ class SubscriptionController extends Controller
             }
         }
 
-        return response()->json(['success' => false, 'message' => 'Failed to follow user or send DM']);
+        return response()->json(['success' => false, 'message' => 'oops something happened']);
     }
 
 
