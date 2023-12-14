@@ -52,9 +52,9 @@ the routes available for free tier is
 'users/me'.
 That is more reason i used socialite to get user credentials.
 
-For more info [here](https://www.withblaze.app/blog/understanding-the-recent-changes-to-twitter-api-a-complete-guide).
+For more info click [here](https://www.withblaze.app/blog/understanding-the-recent-changes-to-twitter-api-a-complete-guide).
 
-And also [here](https://developer.twitter.com/en/portal/products).
+And also click [here](https://developer.twitter.com/en/portal/products).
 
 # Models
 ## User model
