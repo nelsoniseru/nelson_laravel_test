@@ -41,6 +41,7 @@ go to your browser and type http://127.0.0.1:8000/ and signup, click on the link
 
 
 ## For the route use the bearer token you obtain from twitter portal.
+http://127.0.0.1:8000/channel-subscription
 ```
 Authorization: Bearer <accessToken>
 ```
